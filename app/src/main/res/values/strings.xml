@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PCarsTT</string>
+    <string name="send_button_text">Send</string>
+    <string name="receive_button_text">Receive</string>
+    <string name="lap_label">Lap</string>
+    <string name="laptime_label">Laptime</string>
+    <string name="sector1_label">Sector1</string>
+    <string name="sector2_label">Sector2</string>
+    <string name="sector3_label">Sector3</string>
+    <string name="current_label">Current</string>
+    <string name="lapnumber_label">#</string>
+    <string name="gamestate_label">GState</string>
+    <string name="track_label">Track</string>
+    <string name="car_label">Car</string>
+    <string name="last_label">Last</string>
+    <string name="best_label">Best</string>
+    <string name="record_label">Rec</string>
+    <string name="exit_message_dialog">Are you sure you want to exit?</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_message_dialog">Do you want to delete the item from the database?</string>
+    <string name="delete">Delete</string>
+    <string name="clear_database">Clear database</string>
+    <string name="backup_database">Backup database</string>
+    <string name="restore_database">Restore database</string>
+    <string name="about">About</string>
+    <string name="no_network">Please enable your WiFi and restart the application.</string>
+    <string name="fastest_lap_label">Fastest lap</string>
+    <string name="fastest_lap_name">Name</string>
+    <string name="about_message">PCarsTT v1.6 by pbluedotsoft@gmail.com\n\nCheck my new Project CARS
+        Time Attack app in Google Play!</string>
+    <string-array name="laptime_array">
+        <item>ASC</item>
+        <item>DESC</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d95050</color>
+    <color name="validLap">#55933e</color>
+    <color name="invalidLap">#d93b3b</color>
+    <color name="layoutsBackground">#151414</color>
+    <color name="fieldLabel">#dad1d1</color>
+    <color name="fieldOutput">#bab5b5</color>
+    <color name="lastLap">#d6d154</color>
+    <color name="bestTime">#4860b7</color>
+    <color name="bestSector">#2c7014</color>
+    <color name="recordLap">#6779b9</color>
+    <color name="transparentBg">#00000000</color>
+    <color name="greyBg">#a4a4a4</color>
+    <color name="darkFont">#282727</color>
+    <color name="black">#000000</color>
+</resources>

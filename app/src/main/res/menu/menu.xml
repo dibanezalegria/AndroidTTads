@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/pcars_ta_action"
+        android:title="NEW PCars Time Attack"/>
+
+    <item
+        android:id="@+id/edit_database_action"
+        android:title="Edit database">
+    </item>
+
+    <item
+        android:id="@+id/about_main"
+        android:title="About">
+    </item>
+
+    <item
+        android:id="@+id/exit_action"
+        android:title="Exit"
+        android:visible="false">
+    </item>
+
+</menu>

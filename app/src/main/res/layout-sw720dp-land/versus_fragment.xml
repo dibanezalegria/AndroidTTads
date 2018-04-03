@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true">
+
+        <TextView/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Session best"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/fieldLabel"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="VS"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:textColor="@color/fieldLabel"
+            android:textSize="24sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#c6c4c4">
+            <!-- Spinner wrapped in layout that gives color to the bg -->
+            <Spinner
+                android:id="@+id/versus_spinner"
+                android:layout_width="250dip"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="Lap"
+            android:textColor="@color/fieldLabel"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/versus_bestLap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="laptime"
+            android:textColor="@color/bestTime"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_gap0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="gap0"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_targetLap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="laptime"
+            android:textColor="@color/recordLap"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S1"
+            android:textColor="@color/fieldLabel"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/versus_bestS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S1"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_gap1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="gap1"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_targetS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S1"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S2"
+            android:textColor="@color/fieldLabel"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/versus_bestS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S2"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_gap2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="gap2"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_targetS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S2"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S3"
+            android:textColor="@color/fieldLabel"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/versus_bestS3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S3"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+
+        <TextView
+            android:id="@+id/versus_gap3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="gap3"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/versus_targetS3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S3"
+            android:textColor="@color/fieldOutput"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/multiclass_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbarThumbVertical="@android:color/holo_blue_dark"
+        android:scrollbarSize="5dp"
+        android:scrollbars="vertical"
+        android:textSize="14sp"
+        android:transcriptMode="alwaysScroll"
+        android:typeface="monospace"
+        android:visibility="visible"
+        />
+
+</LinearLayout>
