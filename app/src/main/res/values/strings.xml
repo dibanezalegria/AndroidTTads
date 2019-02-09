@@ -27,7 +27,7 @@
     <string name="no_network">Please enable your WiFi and restart the application.</string>
     <string name="fastest_lap_label">Fastest lap</string>
     <string name="fastest_lap_name">Name</string>
-    <string name="about_message">PCarsTT v1.6 by pbluedotsoft@gmail.com\n\nCheck my new Project CARS
+    <string name="about_message">PCarsTT v1.7 by pbluedotsoft@gmail.com\n\nCheck my new Project CARS
         Time Attack app in Google Play!</string>
     <string-array name="laptime_array">
         <item>ASC</item>

@@ -15,8 +15,8 @@ android {
         applicationId 'com.palebluedot.pcarstimetrial'
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 7
-        versionName "1.6"
+        versionCode 8
+        versionName "1.7"
     }
     buildTypes {
         release {
